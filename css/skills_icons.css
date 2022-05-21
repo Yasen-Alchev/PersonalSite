@@ -1,0 +1,47 @@
+#languages {
+    margin: -1vw 0vw 1vw 5vw;
+    font-weight: 620;
+}
+
+.item {
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.item div:nth-child(odd) {
+    font-size: 2vw;
+}
+
+.item_description {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+
+.skills div {
+    margin: 0.2vw;
+}
+
+.my_skills {
+    text-align: center;
+    margin-left: -3vw;
+}
+
+.skill_title {
+    margin: 4vw 2vw 2vw 5vw;
+    font-size: 1.5vw;
+    font-weight: 620;
+}
+
+.skill_title:first-child {
+    margin-top: 40px;
+    margin-top: 0.6vw;
+}

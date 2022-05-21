@@ -1,0 +1,54 @@
+body {
+    background-image: url("../images/background_site_image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#sticky_navbar {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(162, 213, 246, 0.76);
+    opacity: 0.8;
+    font-size: 1.3vw;
+}
+
+a.navbar-brand {
+    font-size: 1.8vw;
+}
+
+#sticky_navbar a {
+    margin: 0vw 0.4vw 0vw 0.4vw;
+}
+
+#profile_pic {
+    margin-top: 2%;
+    border-radius: 50%;
+    max-width: 15%;
+    max-height: 15%;
+    display: block;
+}
+
+.center>* {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#my_name {
+    display: table;
+    margin-top: 1.4vw;
+    font-weight: 600;
+    color: black;
+    opacity: 0.8;
+    font-size: 2vw;
+    text-align: center;
+}
+
+#designed_by {
+    margin-top: 4vw;
+    margin-bottom: -1vw;
+    font-weight: 700;
+    font-size: 0.8vw;
+}

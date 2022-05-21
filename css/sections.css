@@ -1,0 +1,128 @@
+.sections {
+    position: relative;
+    margin-bottom: 2vw;
+    font-size: 1.4vw;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content {
+    margin-left: 5vw;
+}
+
+.content li {
+    margin-left: -1vw;
+}
+
+.sections h1 {
+    font-size: 3vw;
+    font-weight: 1000;
+    line-height: 1.2;
+    margin: 2vw;
+    text-align: left;
+}
+
+.about_me br::after {
+    tab-size: 2px;
+    content: "\a";
+    white-space: pre;
+}
+
+#about_me::before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 0.6vw;
+    content: "\f007";
+}
+
+#my_education::before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 0.6vw;
+    content: "\f19d";
+}
+
+.sections h1 {
+    padding-top: 5vw;
+}
+
+.about_me {
+    font-family: "Font Awesome 5 Free";
+    position: relative;
+    text-align: justify;
+    width: 50vw;
+}
+
+.my_education {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.eduitem {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.years {
+    font-weight: 160;
+    font-size: 1vw;
+}
+
+.school_name {
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.school_full_name {
+    word-wrap: break-word;
+    font-weight: 400;
+    font-size: 1.6vw;
+    font-family: cursive;
+}
+
+.school_programme_name {
+    font-weight: 450;
+    font-size: 1.4vw;
+    font-family: monospace;
+}
+
+.school_description>* {
+    word-wrap: break-word;
+}
+
+.eduitem {
+    text-align: left;
+}
+
+.eduitem>* {
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.eduitem img {
+    display: block;
+    padding: -0.6vw;
+    margin: 3%;
+    margin: auto 1.3vw auto 1.3vw;
+    height: 6vw;
+    width: 6vw;
+}
+
+li.list-group-item {
+    border: 0.2vw solid rgba(0, 0, 0, .425);
+    background-color: transparent;
+    margin-bottom: -0.2vw;
+    margin-left: 14vw;
+    max-width: 50%;
+}
+
+#my_skills::before {
+    font-family: "Font Awesome 5 Free";
+    margin-right: 0.6vw;
+    content: "\f005";
+}
